@@ -1,0 +1,26 @@
+.MAP-CONTEINER{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.conteinermaplogo > ul{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    margin-bottom: 5rem;
+}
+.map{
+    list-style-type: none;
+    font-size: 3rem;
+    font-family: sans-serif;
+    padding: 1.5rem;
+}
+.footer-end{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    height: 150px;
+}

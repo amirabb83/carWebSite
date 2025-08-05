@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: yekan;
+    src: url(/src/components/footer/NavBar/font/Yekan.ttf);
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #eb8624;
+    padding: 3rem 3rem;
+    cursor: pointer;
+    transition: all 500ms ease;
+    
+}
+.part:hover{
+    padding: 4rem 4rem;
+    border: 5px solid #eb8624;
+    border-radius: 8px;
+    background: #fff;
+    
+}
+.part:hover >h3{
+    color: #0C1119;
+}
+h3{
+    color: #fff;
+    font-family: yekan;
+    margin-top: 3rem;
+}

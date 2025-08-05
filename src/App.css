@@ -1,0 +1,36 @@
+body{
+    background-color: #0C1119;
+
+}
+
+body {
+    --sb-track-color: #56595a;
+    --sb-thumb-color: #e07e18;
+    --sb-size: 15px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size)
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 11px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 11px;
+    
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
+  }
+  .map{
+    font-size: 1rem;
+
+}

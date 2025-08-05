@@ -1,0 +1,27 @@
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    font-family: yekan;
+}
+.main3{
+    background-image: url(./orangemustang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    border: 3px solid orange;
+    margin: 2px;
+    padding: 2px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    height: 600px;
+}
+.main{
+    width: 40%;
+    color: #fff;
+    font-family: yekan;
+    line-height: 2rem;
+    /* height: 300px; */
+}

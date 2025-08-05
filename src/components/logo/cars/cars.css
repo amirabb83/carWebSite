@@ -1,0 +1,9 @@
+.logo{
+    width: 80px;
+    filter:  grayscale(100%);
+    transition: all 200ms ease-in;
+}
+.logo:hover{
+    filter: grayscale(0);
+    width: 120px;
+}

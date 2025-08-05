@@ -1,0 +1,15 @@
+.partmain-container{
+display: flex;
+align-items: center;
+
+}
+h3{
+     margin: 0;
+     /* padding: 2rem; */
+}
+.h3-title{
+    padding: 0.7rem;
+}
+p{
+    color: #fff;
+}

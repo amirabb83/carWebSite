@@ -1,0 +1,37 @@
+.galery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 350px);
+  grid-template-areas: "a a b" "c d b" "c e e";
+
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 20px 40px;
+}
+.galery-item {
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.galery1 {
+  grid-area: d;
+  background-image: url("./img/lamborghini-3840x2160-11125.jpeg");
+}
+.galery2 {
+  grid-area: b;
+  background-image: url("./img//orange-super-car-8q6xe1cvyi6tydvj.jpg");
+}
+.galery3 {
+  grid-area: e;
+  background-image: url("./img/Screenshot\ \(184\).png");
+}
+.galery4 {
+  grid-area: a;
+  background-image: url("./img/Screenshot\ \(186\).png");
+}
+.galery5 {
+  grid-area: c;
+  background-image: url("./img/bawp-62-media-high.webp");
+}

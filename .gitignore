@@ -1,0 +1,36 @@
+# وابستگی‌ها
+/node_modules
+/.pnp
+.pnp.js
+
+# تست و کاورج
+/coverage
+
+# محیط توسعه
+.env.local
+.env.development
+.env.test
+.env.production
+
+# لاگ‌ها
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# سیستم‌های بیلد
+/dist
+/.next
+/out
+/.cache
+/.vscode
+
+# IDE
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# سیستم‌های کنترل نسخه
+.DS_Store

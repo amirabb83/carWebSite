@@ -1,0 +1,17 @@
+.container-main2{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.img-main{
+  background-size: cover;
+  width: 700px;
+  background-position: center;
+}
+.img-main2{
+    border: 2px solid orange;
+    border-radius: 8px;
+}
+.items-mein2{
+    width: 40%;
+}

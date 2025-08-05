@@ -1,0 +1,17 @@
+.conteiner-zaviye {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+.zavie {
+  width: 650px;
+  border-radius: 6px;
+  border: 2px solid red;
+}
+.para-zavie {
+  width: 600px;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 2;
+}
